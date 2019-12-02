@@ -20,18 +20,18 @@
   <ion-list>
 
     <ion-item>
-      <ion-label fixed>Title</ion-label>
-      <ion-input type="text" [(ngModel)]="note.title"></ion-input>
+      <ion-label fixed>Nome</ion-label>
+      <ion-input type="nome" [(ngModel)]="note.nome"></ion-input>
     </ion-item>
 
     <ion-item>
-      <ion-label fixed>Data</ion-label>
-      <ion-datetime [(ngModel)]="note.date"></ion-datetime>
+      <ion-label fixed>COr</ion-label>
+      <ion-input type="cor" [(ngModel)]="note.cor"></ion-input>
     </ion-item>
 
     <!--TErminamos o passo 14-->
     <ion-item>
-      <ion-textarea placeholder="Conteúdo" [(ngModel)]="note.content"></ion-textarea>
+      <ion-textarea placeholder="Placa" [(ngModel)]="note.placa"></ion-textarea>
     </ion-item>
   </ion-list>
 
