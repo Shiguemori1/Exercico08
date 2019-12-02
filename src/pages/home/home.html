@@ -9,17 +9,17 @@
 <ion-content padding>
 
  <ion-card *ngFor="let note of notes" (click)="onItemClick(note)">
-   <ion-card-header>
-      {{note.date | date: 'dd/MM/yyyy'}}
-   </ion-card-header>
    <ion-card-content>
-     <ion-card-title>
-        {{note.title}}
-     </ion-card-title>
+     <ion-card-nome>
+        {{note.nome}}
+     </ion-card-nome>
+      <ion-card-cor>
+        {{note.cor}}
+     </ion-card-cor>
      <p>
-        {{note.content}}
+        {{note.placa}}
      </p>
-   </ion-card-content>
+   </ion-card-placa>
  </ion-card>
  <ion-fab end bottom>
    <button ion-fab color="primary" (click)="onAddClick()">
