@@ -2,21 +2,21 @@ export class NoteService{
     notes = [
         {
           id: 1,
-          title: 'Firebase',
-          content: 'Estudar Firebase',
-          date: '2019-06-05' 
+          nome: 'Sonic',
+          cor: 'azul',
+          placa: 'SSS-1234' 
         },
-        {
-        id: '2',
-        date: '2016-01-01',
-        title: 'Ionic',
-        content: 'Aprenda o básico de Ionic'
+      {
+          id: 2,
+          nome: 'Ferrari',
+          cor: 'azul',
+          placa: 'FFF-4567' 
         },
-        {
-        id: '3',
-        date: '2016-03-01',
-        title: 'Angular',
-        content: 'Importante para desenvolver com Ionic'
+       {
+          id: 3,
+          nome: 'Monza',
+          cor: 'marrom',
+          placa: 'MMM-9874' 
         }
       ]
 
